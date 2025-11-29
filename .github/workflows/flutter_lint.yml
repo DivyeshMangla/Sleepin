@@ -2,7 +2,7 @@ name: Flutter Lint
 
 on:
   push:
-    branches: ["main"]
+    branches: ["**"]
   pull_request:
 
 jobs:
