@@ -1,0 +1,118 @@
+# ============================
+# General
+# ============================
+*.class
+*.log
+*.pyc
+*.swp
+*.tmp
+*.bak
+*.orig
+*.rej
+*.cache
+.DS_Store
+Thumbs.db
+
+# System / tool metadata
+.atom/
+.svn/
+.history/
+.buildlog/
+.swiftpm/
+migrate_working_dir/
+
+# ============================
+# IDE / Editor
+# ============================
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code (optional to ignore)
+#.vscode/
+
+# ============================
+# Flutter / Dart
+# ============================
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+**/doc/api/
+
+# Dart build output
+*.dart.js
+*.info.json
+*.js.map
+*.js.deps
+
+# ============================
+# Android
+# ============================
+/android/.gradle/
+/android/.idea/
+/android/local.properties
+/android/**/gradle-wrapper.jar
+/android/**/gradle-wrapper.properties
+/android/**/gradle.properties
+/android/**/captures/
+/android/**/build/
+
+# Android app build variants
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ============================
+# iOS
+# ============================
+/ios/Flutter/.last_build_id
+/ios/.generated/
+/ios/Pods/
+/ios/build/
+/ios/.symlinks/
+/ios/Runner/GeneratedPluginRegistrant.*
+
+# Xcode files
+*.xcworkspace
+*.xcuserstate
+*.xcscheme
+*.xcuserdatad
+*.moved-aside
+
+# CocoaPods
+Podfile.lock
+podfile.lock
+*.podspec
+
+# ============================
+# macOS (Flutter desktop)
+/macos/Flutter/ephemeral/
+/macos/Pods/
+/macos/build/
+
+# ============================
+# Windows (Flutter desktop)
+/windows/flutter/ephemeral/
+/windows/build/
+
+# ============================
+# Linux (Flutter desktop)
+/linux/flutter/ephemeral/
+/linux/build/
+
+# ============================
+# Web (Flutter web)
+web/generated_plugin_registrant.dart
+
+# ============================
+# Symbolication / Obfuscation
+# ============================
+app.*.symbols
+app.*.map.json
