@@ -60,7 +60,7 @@ coverage/
 /android/local.properties
 /android/**/gradle-wrapper.jar
 /android/**/gradle-wrapper.properties
-/android/**/gradle.properties
+# /android/**/gradle.properties
 /android/**/captures/
 /android/**/build/
 
